@@ -164,6 +164,7 @@ public class LinkedList implements Iterable<Integer> {
 
 		list = initList();
 		System.out.print("Before remove tail: ");
+		System.out.println(list);
 		list.removeTail();
 		System.out.print("After  remove tail: ");
 		System.out.println(list);
